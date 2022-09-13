@@ -1,0 +1,413 @@
+.bg-portafolio{
+    background:#CFC1BE;
+    height: 100px;
+   }
+   
+   
+   .bg-portafolio ul li a {
+    color: white;
+   }
+   
+   .bg-portafolio ul li a:hover{
+       color: red
+      }
+      #hero{
+       padding-top:120px;
+       padding-bottom:80px;
+       
+      }
+      #hero h1{
+       color: blueviolet;
+      }
+      #hero p{
+       color: black;
+       font-size:22px;
+   }
+   header{
+       width: 100%;
+       position:relative;
+   }
+   #welcome{
+       width: 100%;
+       position: relative;
+       background-color: aliceblue;
+       padding: 50%;
+   }
+   
+   header .fondogif {
+   height:1470px;
+   width: 100%;
+   }
+   
+   header .fondogif img{
+       width:100%;
+       height:40%;
+   }
+   
+   #nombre {
+   
+       text-align: center;
+       padding: 30px;
+       padding-bottom: 100px;
+   }
+   
+   header #nombre h1  {
+   
+       background: linear-gradient(#5889D3,#c3cfe0);
+       -webkit-background-clip: text;
+       color: transparent;
+       margin-top: -25px;
+       margin-left: -722px;
+   }
+   
+   header #nombre .parrafo1 {
+       background: linear-gradient(#5889D3,#c3cfe0);
+       -webkit-background-clip: text;
+       color: transparent;
+       font-size: 20px;
+       margin-top: 10px;
+       margin-left: -700px;
+    
+   }
+   header #nombre .parrafo2 {
+       width: 784px;
+       margin-left: -19%;
+       margin-top: 20px;
+       font-family: Asap;
+       font-size: larger;
+   }
+   header #estudios h1 {
+    
+       text-align: center;
+       ;
+       color: aliceblue;
+       margin-top: -362px;
+       width: 100%;
+       background: linear-gradient(#94add3,#c3cfe0);
+       -webkit-background-clip: text;
+       color: transparent;  
+       
+   }
+   #estudios {
+      background-color:#727272 ;
+      height: 429px;
+   
+   }
+   
+   
+   #estudios .cuadroestudios {
+       width: 420px;
+       height: 325px;
+       background: linear-gradient(#130CEE,#EDEEF3);
+       margin: 10px;
+      
+   }   
+   
+   #estudios .cuadroestudios img{
+       width: 100px;
+       height: 100px;
+       margin-left: 39%;
+   }
+   
+   header #estudios .parrafo3 {
+   
+      text-align: center; 
+      color:white;
+      margin-top: 30px;
+      
+   }
+   
+   
+   header #estudios .tex1{
+   
+       text-align: center;
+       color: white;
+       padding-top: 60px;
+       font-family: Asap;
+       font-size: 343%;
+    }
+   
+    header #estudios .tex2{
+   
+       text-align: center;
+       color: white;
+       padding-top: 14px;
+       font-family: Asap;
+       font-size: 250%;
+       
+    }
+   
+    header #estudios .tex3{
+   
+       text-align: center;
+       color: white;
+       padding-top: 70px;
+       font-family: Asap;
+       font-size: 294%;
+       
+    }
+   
+   #proyectos{
+   
+       background-color:white;
+       height: 517px;
+   }
+   
+    #proyectos h1{
+      background-color:#E5E5E5;
+      height: 100px;
+      text-align:center;
+   }
+   
+   #proyectos .cuadroproyecto {
+       width: 420px;
+       height: 352px;
+       background: linear-gradient(#bebcf8,#EDEEF3);
+       margin: 10px;
+      
+   }   
+   
+    #proyectos h1{
+   
+       text-align: center;
+      
+       padding-top: 21px;
+       font-family: Asap;
+       font-size: 417%;
+       background: linear-gradient(#5889D3,#c3cfe0);
+       -webkit-background-clip: text;
+       color: transparent;  
+    }
+    #proyectos .cuadroproyecto img{
+       width: 100px;
+       height: 100px;
+       margin-left: 39%;
+   }
+   
+   
+   
+   #whatsapp {
+   
+       position: fixed;
+       right: 10px;
+       top:80px;
+       z-index: 9999;
+   }
+   header #proyectos .tex3{
+       text-align: center;
+       color: white;
+       padding-top: 60px;
+       font-family: Asap;
+       font-size: 343%; 
+   }
+   
+   #experiencia{
+      
+       background-color: #e6e6e6;
+       height: 587px;
+   
+   }
+    
+   #experiencia h1{
+   
+       text-align: center;
+       padding-top: 21px;
+       font-family: Asap;
+       font-size: 417%;
+       background: linear-gradient(#20028d,#c3cfe0);
+       -webkit-background-clip: text;
+       color: transparent;  
+    }
+   .progress {
+       background: black;
+       justify-content: flex-start;
+       border-radius: 100px;
+       align-items: center;
+       position: relative;
+       padding: 0 5px;
+       display: flex;
+       height: 40px;
+       width: 259px;
+       margin-left: 159px;
+       margin-top: 15px;
+     }
+   
+     .progress1 {
+       background: black;
+       justify-content: flex-start;
+       border-radius: 100px;
+       align-items: center;
+       position: relative;
+       padding: 0 5px;
+       display: flex;
+       height: 40px;
+       width: 259px;
+       margin-left: 501px;
+     }
+     
+     .progress-value {
+       animation: load 3s normal forwards;
+       box-shadow: 0 10px 40px -10px #fff;
+       border-radius: 100px;
+       background: #fff;
+       height: 30px;
+       width: 0;
+       text-align: center;
+       font-size: medium;
+       
+     }
+     
+     @keyframes load {
+       0% { width: 0; }
+       100% { width: 50%; }
+     }
+     
+     #experiencia .experiencia1 img{
+         width: 99px;
+       height: 97px;
+       margin-left: 28%;
+       margin-bottom: 8px;
+       margin-top: 11px;
+     }
+     
+   
+     #experiencia .experiencia2 img{
+       width: 99px;
+       height: 97px;
+       margin-left: 89%;
+       margin-bottom: -2px;
+     }
+     
+     #comentarios .comentario {
+       width: 420px;
+       height: 325px;
+       background: linear-gradient(#615af1,#EDEEF3);
+       margin: 6px;
+       margin-top: 63px;  
+   }
+   
+   #comentarios .comentario img{
+       width: 100px;
+       height: 100px;
+       margin-left: 39%;
+   }
+   
+   header #comentarios .texto{
+   
+      text-align: center;
+       color: black;
+       padding-top: 1px;
+       font-family: Asap;
+       font-size: 156%;
+    }
+    label {
+       display: block;
+       margin-top: 20px;
+       letter-spacing: 1px;
+       margin-left: 767px;
+   }
+    
+   .principal {
+       display:block;
+       margin:0 auto;
+       width:510px;
+       color: #666666;
+       font-family:Arial;
+   }
+    
+   form {
+       margin:0 auto;
+       width:400px;
+   }
+    
+   input, textarea { 
+       width: 380px;
+       height: 27px;
+       background: #e0e0e0;
+       border: 2px solid #f6f6f6;
+       padding: 10px;
+       margin-top: 5px;
+       font-size: 9px;
+       color: black;
+       margin-left: 767px;
+   }
+    
+   textarea {
+       height:150px;
+   }
+    
+   #submit {
+       width:85px;
+       height:35px;
+       border:none;
+       margin-top:20px;
+       cursor:pointer;
+   }
+   #nombre{  
+       position: relative;
+       margin-top: auto;
+       margin-left: 767px;
+   }
+   
+   #formulario  h2 {
+       text-align: center;
+       margin-top: 512px;
+   }
+   
+   #contactos {
+       background: linear-gradient(#3a2222,#ecdfdf);
+       height: 130px;
+    
+    }
+   
+    #contactos  img{
+       width: 93px;
+       height: 74px;
+       margin-left: 1%;
+       margin-top: 24px;
+   }
+   
+   
+   #contactos .celular2  img{
+       width: 93px;
+       height: 74px;
+       margin-left: 30%;
+       margin-top: -87px;
+   }
+   
+   header #contactos p {
+       text-align: left;
+       color: black;
+       padding-top: 60px;
+       font-family: Asap;
+       font-size: 191%;
+       margin-top: -130px;
+       margin-left: 132px;
+   }
+   
+   header #contactos .celular2 p {
+       text-align: left;
+       color: black;
+       padding-top: 60px;
+       font-family: Asap;
+       font-size: 191%;
+       margin-top: -130px;
+       margin-left: 684px;
+   }
+   
+   #contactos .celular3  img{
+       width: 93px;
+       height: 74px;
+       margin-left: 72%;
+       margin-top: -104px;
+   
+       }
+       header #contactos .celular3 p {
+           text-align: left;
+           color: black;
+           padding-top: 60px;
+           font-family: Asap;
+           font-size: 191%;
+           margin-top: -130px;
+           margin-left: 1475px;
+       }
